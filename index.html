@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist.css">
+    
+    <title>Twitter</title>
+</head>
+<body class="bg-white dark:bg-blue-950">
+
+    <div class="container mx-auto h-screen flex xl:max-w-[1200px]">
+        <!-- left -->
+        <div class=" xl:w-1/5 w-20 h-full flex flex-col xl:pr-4">
+            <a href="#" class="link-active my-2">
+                <ion-icon id="twitter-icon"name="logo-twitter"></ion-icon>
+            </a>
+            <nav class="mt-5">
+                <a href="#" class="link-active mb-8"><ion-icon name="home"></ion-icon><span class="icon">Home</span></a>
+                <a href="#" class="link"><ion-icon name="planet"></ion-icon><span class="icon">Explore</span></a>
+                <a href="#" class="link"><ion-icon name="notifications"></ion-icon><span class="icon">Notifications</span></a>
+                <a href="#" class="link"><ion-icon name="file-tray"></ion-icon><span class="icon">Message</span></a>
+                <a href="#" class="link"><ion-icon name="bookmarks"></ion-icon><span class="icon">Bookmarks</span></a>
+                <a href="#" class="link"><ion-icon name="list"></ion-icon><span class="icon">Lists</span></a>
+                <a href="#" class="link"><ion-icon name="person"></ion-icon><span class="icon">Profile</span></a>
+                <a href="#" class="link"><ion-icon name="return-down-back"></ion-icon><span class="icon">More</span></a>
+            </nav>
+            <button class="mx-auto w-11 h-11 xl:w-full flex items-center  justify-center hover:bg-blue-800 transition bg-blue-400 rounded-full text-white font-bold"><span class="icon xl:ml-0">Tweet</span></button>
+            <div class="w-14 xl:w-full mx-auto mt-auto flex justify-between mb-2 rounded p-2 cursor-pointer">
+                <img class="w-10 h-10 rounded-full" src="./profile.png">
+                <div class="hidden xl:flex flex-col">
+                    <h2 class="text-gray-800 dark:text-white font-bold text-sm">Omar elbarbeir</h2>
+                    <p class="text-gray-400 text-sm">@omarelbarbeir1</p>
+                </div>
+                <ion-icon class="hidden xl:flex items-center xl:ml-4 dark:text-white text-gray-800" name="chevron-down"></ion-icon>
+            </div>
+        </div>
+       
+
+        <!-- middle -->
+        <div class="w-full xl:w-1/2 h-screen ">
+            <!-- sticky header -->
+            <div class="z-10 flex justify-between items-center border py-3 sticky top-0 bg-white dark:bg-blue-950 border-gray-200 dark:border-gray-700">
+                <h4 class="mx-4 text-black dark:text-gray-100 font-bold">Home</h4>
+                <ion-icon class="mx-4 text-blue-400 text-lg" name="logo-twitter"></ion-icon>
+            </div>
+
+
+            <!-- tweet box -->
+            <div class="border pb-3 border-gray-200 dark:border-gray-700">
+                <div class="flex p-4">
+                    <img class="rounded-full w-10 h-10" src="./profile.png">
+                    <textarea class="p-2 dark:text-white text-balck w-full h-16 bg-transparent focus:outline-none resize-none"
+                    placeholder="What Is Happening" maxlength="1000"></textarea>
+                </div>
+                <div class="flex w-full p-2  ">
+                    <a class="text-blue-400 rounded-full p-2 hover:scale-125 duration-300 transition" href=""><ion-icon name="image"></ion-icon></a>
+                    <a class="text-blue-400 rounded-full p-2 hover:scale-125 duration-300 transition " href=""><ion-icon name="film"></ion-icon></a>
+                    <a class="text-blue-400 rounded-full p-2 hover:scale-125 duration-300 transition" href=""><ion-icon name="list"></ion-icon></a>
+                    <a class="text-blue-400 rounded-full p-2 hover:scale-125 duration-300 transition" href=""><ion-icon name="location"></ion-icon></a>
+                    <a class="bg-blue-400 rounded-full px-6 ml-auto mr-1 flex items-center text-white font-bold hover:bg-blue-800 transition" href="">Tweet</a>
+                </div>
+                <div class="text-center py-2 bg-white dark:bg-blue-950 border border-white dark:border-gray-700
+                text-sm cursor-pointer text-blue-400 border-b-0 border-l-0 border-r-0">Show Tweets</div>
+            </div>
+
+
+            <!-- tweet div -->
+            <div class="border border-gray-200 dark:border-gray-700 cursor-pointer pb-4">
+                <div class="flex p-4 pb-0">
+                    <img src="./profile.png" class="h-9 w-9 rounded-full">
+                    <p class="ml-2 flex flex-shrink-0 items-center font-bold dark:text-gray-200 text-blue-950">Omar Elbarbeir
+                        <span class="ml-2 text-xs leading-5 font-medium dark:text-gray-200 text-blue-950">@omarelbarbeir1</span></p>
+                </div>
+
+                <div class="pl-0 xl:pl-16 pr-4">
+                    <p class="w-auto font-medium dark:text-gray-200 text-blue-950 cursor-text md:ml-2 sm:ml-2">
+                        Al-Ahly club achieved the African Champions League championship for the eleventh time in its history, after a draw with Moroccan Wydad at Mohammed V Stadium, and Al-Ahly won in Cairo 2/1.
+                        Al-Ahly’s position in the group stage was difficult after losing to Al-Hilal of Sudan and Sun Downs of South Africa
+                        and tied with the latter 2/2 in the first-leg match, but Al-Hilal gave Al-Ahly the opportunity to qualify for the round of 16
+                        after Athar Al-Taher missed a penalty kick in the last minutes of the match that took place.
+                        Al-Hilal of Sudan and Sundowns of South Africa gathered, and Al-Ahly was able to defeat Al-Hilal in the last match in the group stage
+                        to qualify for Al-Ahly and eventually be able to win the third title in the last four years.
+                    </p>
+                    <img src="../../imgs/new/ahly11.jpeg" class="rounded-xl my-3 mr-2 border-gray-600 border md:ml-2 sm:ml-2">
+
+                    <div class="flex justify-between w-full items-center">
+                        <div class="flex items-center dark:text-gray-200 text-blue-950 text-sm">
+                            <ion-icon class="mr-2 text-lg hover:text-red-600 transition" name="heart"></ion-icon>
+                            31.5k
+                        </div>
+
+                        <div class="flex items-center dark:text-gray-200 text-blue-950 text-sm">
+                            <ion-icon class="mr-2 text-lg hover:text-green-500 transition" name="repeat"></ion-icon>
+                            60.5k
+                        </div>
+
+                        <div class="flex items-center dark:text-gray-200 text-blue-950 text-sm">
+                            <ion-icon class="mr-2 text-lg" name="chatbubble"></ion-icon>
+                            56.2k
+                        </div>
+
+                        <div class="flex items-center dark:text-gray-200 text-blue-950 text-sm">
+                            <ion-icon class="mr-2 text-lg" name="arrow-redo"></ion-icon>
+                            15.3k
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="py-1 border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-blue-950 mt-4">
+                    <div class="text-center bg-white dark:bg-blue-950 border-b border-t  border-white dark:border-blue-950">
+                        <h3 class="text-blue-950 dark:text-gray-200 text-xl font-bold mb-2">Customize Your View</h3>
+                        <p class="dark:text-gray-200 mb-5 text-sm  text-blue-950">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Eius beatae sapiente, iure rerum sit at quas odio?</p>
+                        <a href="javascript:void(0)" onclick="document.querySelector('html').classList.Toggle('dark')" class="mx-auto w-11 h-11 rounded-full xl:w-48 flex items-center justify-center bg-blue-400 py-3 text-white font-bold"><ion-icon class="block xl:hidden text-lg" name="moon"></ion-icon>
+                            <span class="hidden font-bold xl:block">Toggle Dark Mood</span></a>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+
+
+        <!-- right -->
+        <div class="hidden w-[30%] xl:block">
+            <!-- search -->
+            <div class="relative m-2">
+                <input  type="text"  class="w-full bg-gray-200 dark:bg-blue-900 border-gray-200 dark:border-blue-950
+                 text-blue-950 dark:text-black focus:outline-none font-normal h-9 pl-12 top-0 rounded-full text-sm"
+                  placeholder="Search">
+                  <ion-icon class="text-gray-600 absolute left-4 top-1/2 -translate-y-1/2" name="search"></ion-icon>
+            </div>
+
+
+            <!-- hashtag -->
+            <div class="bg-white dark:bg-cyan-950 rounded-2xl m-2">
+                <h3 class="text-gray-900 dark:text-gray-200 font-bold p-3 border-b border-gray-700 dark:border-gray-700">What Is happening</h3>
+                
+                <div class="p-3 border-b  border-gray-700 dark:border-gray-700">
+                    <h4 class="font-bold text-gray-900 dark:text-gray-200">#Al_ahly</h4>
+                    <p class="text-xs text-gray-400 ">70.5k Tweets</p>
+                </div>
+
+                <div class="p-3 border-b  border-gray-700 dark:border-gray-700">
+                    <h4 class="font-bold text-gray-900 dark:text-gray-200">#محمد_عبد_المنعم</h4>
+                    <p class="text-xs text-gray-400 ">40.6k Tweets</p>
+                </div>
+
+                <div class="p-3 border-b  border-gray-700 dark:border-gray-700">
+                    <h4 class="font-bold text-gray-900 dark:text-gray-200">#مصطفي_شوبير</h4>
+                    <p class="text-xs text-gray-400 ">32.3k Tweets</p>
+                </div>
+
+                <div class="p-3 border-b  border-gray-700 dark:border-gray-700">
+                    <h4 class="font-bold text-gray-900 dark:text-gray-200">#علي_معلول</h4>
+                    <p class="text-xs text-gray-400 ">60.6k Tweets</p>
+                </div>
+
+                <div class="dark:text-gray-200 text-gray-900 font-bold p-3 cursor-pointer">Show More</div>
+            </div>
+
+
+            <!-- who to follow -->
+            <div class="bg-white dark:bg-cyan-950 rounded-2xl m-2 mt-5">
+                <h3 class="text-gray-900 dark:text-gray-200 font-bold p-3 border-b border-gray-700 dark:border-gray-700">Who To Follow</h3>
+                
+                
+                <div class="p-3 border-b  border-gray-700 dark:border-gray-700 flex justify-between items-center">
+                    <div class="flex">
+                        <img src="./profile.png" class="w-9 h-9 rounded-full">
+                        <div class="ml-2 text-sm">
+                            <h5 class="text-gray-900 dark:text-gray-200 font-bold">Omar Elbarbeir</h5>
+                            <p class="text-gray-400">@omarelbarbeir1</p>
+                        </div>
+                    </div>
+                    <a href="#" class="text-sm font-bold text-blue-400 px-4 py-1 rounded-full border-2 border-blue-400">Follow</a>
+                </div>
+
+
+                
+                <div class="p-3 border-b  border-gray-700 dark:border-gray-700 flex justify-between items-center">
+                    <div class="flex">
+                        <img src="./profile.png" class="w-9 h-9 rounded-full">
+                        <div class="ml-2 text-sm">
+                            <h5 class="text-gray-900 dark:text-gray-200 font-bold">Omar Elbarbeir</h5>
+                            <p class="text-gray-400">@omarelbarbeir1</p>
+                        </div>
+                    </div>
+                    <a href="#" class="text-sm font-bold text-blue-400 px-4 py-1 rounded-full border-2 border-blue-400">Follow</a>
+                </div>
+
+
+                
+                <div class="p-3 border-b  border-gray-700 dark:border-gray-700 flex justify-between items-center">
+                    <div class="flex">
+                        <img src="./profile.png" class="w-9 h-9 rounded-full">
+                        <div class="ml-2 text-sm">
+                            <h5 class="text-gray-900 dark:text-gray-200 font-bold">Omar Elbarbeir</h5>
+                            <p class="text-gray-400">@omarelbarbeir1</p>
+                        </div>
+                    </div>
+                    <a href="#" class="text-sm font-bold text-blue-400 px-4 py-1 rounded-full border-2 border-blue-400">Follow</a>
+                </div>
+
+
+                <div class="dark:text-gray-200 text-geay-900 font-bold p-3 cursor-pointer">Show More</div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    
+    
+    
+
+
+</body>
+</html>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
